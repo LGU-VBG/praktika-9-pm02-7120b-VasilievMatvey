@@ -1,0 +1,28 @@
+.block {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+}
+.block img {
+  width: 400px;
+  height: 200px;
+}
+
+.icons {
+  display: inline-block;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin: 2px;
+  position: relative;
+  z-index: 2;
+  left: 150px;
+  top: -30px;
+}
+.icons:hover {
+  background-color: red;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 4px 2px #fff;
+}
